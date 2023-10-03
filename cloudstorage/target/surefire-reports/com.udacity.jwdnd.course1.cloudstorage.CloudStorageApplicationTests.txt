@@ -1,0 +1,367 @@
+-------------------------------------------------------------------------------
+Test set: com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 27.441 s <<< FAILURE! - in com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests
+testLargeUpload  Time elapsed: 2.964 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.92 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TVN8195F', ip: '192.168.100.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00C1A813+48355]
+	(No symbol) [0x00BAC4B1]
+	(No symbol) [0x00AB5358]
+	(No symbol) [0x00AD61AC]
+	(No symbol) [0x00AD1EF3]
+	(No symbol) [0x00AD0579]
+	(No symbol) [0x00B00C55]
+	(No symbol) [0x00B0093C]
+	(No symbol) [0x00AFA536]
+	(No symbol) [0x00AD82DC]
+	(No symbol) [0x00AD93DD]
+	GetHandleVerifier [0x00E7AABD+2539405]
+	GetHandleVerifier [0x00EBA78F+2800735]
+	GetHandleVerifier [0x00EB456C+2775612]
+	GetHandleVerifier [0x00CA51E0+616112]
+	(No symbol) [0x00BB5F8C]
+	(No symbol) [0x00BB2328]
+	(No symbol) [0x00BB240B]
+	(No symbol) [0x00BA4FF7]
+	BaseThreadInitThunk [0x772800C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DB7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DB7AEE+238]
+
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:32)
+
+testEditAndDisplayNote  Time elapsed: 1.55 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.92 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TVN8195F', ip: '192.168.100.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00C1A813+48355]
+	(No symbol) [0x00BAC4B1]
+	(No symbol) [0x00AB5358]
+	(No symbol) [0x00AD61AC]
+	(No symbol) [0x00AD1EF3]
+	(No symbol) [0x00AD0579]
+	(No symbol) [0x00B00C55]
+	(No symbol) [0x00B0093C]
+	(No symbol) [0x00AFA536]
+	(No symbol) [0x00AD82DC]
+	(No symbol) [0x00AD93DD]
+	GetHandleVerifier [0x00E7AABD+2539405]
+	GetHandleVerifier [0x00EBA78F+2800735]
+	GetHandleVerifier [0x00EB456C+2775612]
+	GetHandleVerifier [0x00CA51E0+616112]
+	(No symbol) [0x00BB5F8C]
+	(No symbol) [0x00BB2328]
+	(No symbol) [0x00BB240B]
+	(No symbol) [0x00BA4FF7]
+	BaseThreadInitThunk [0x772800C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DB7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DB7AEE+238]
+
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:32)
+
+getLoginPage  Time elapsed: 1.253 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.92 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TVN8195F', ip: '192.168.100.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00C1A813+48355]
+	(No symbol) [0x00BAC4B1]
+	(No symbol) [0x00AB5358]
+	(No symbol) [0x00AD61AC]
+	(No symbol) [0x00AD1EF3]
+	(No symbol) [0x00AD0579]
+	(No symbol) [0x00B00C55]
+	(No symbol) [0x00B0093C]
+	(No symbol) [0x00AFA536]
+	(No symbol) [0x00AD82DC]
+	(No symbol) [0x00AD93DD]
+	GetHandleVerifier [0x00E7AABD+2539405]
+	GetHandleVerifier [0x00EBA78F+2800735]
+	GetHandleVerifier [0x00EB456C+2775612]
+	GetHandleVerifier [0x00CA51E0+616112]
+	(No symbol) [0x00BB5F8C]
+	(No symbol) [0x00BB2328]
+	(No symbol) [0x00BB240B]
+	(No symbol) [0x00BA4FF7]
+	BaseThreadInitThunk [0x772800C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DB7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DB7AEE+238]
+
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:32)
+
+testLogut  Time elapsed: 1.19 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.92 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TVN8195F', ip: '192.168.100.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00C1A813+48355]
+	(No symbol) [0x00BAC4B1]
+	(No symbol) [0x00AB5358]
+	(No symbol) [0x00AD61AC]
+	(No symbol) [0x00AD1EF3]
+	(No symbol) [0x00AD0579]
+	(No symbol) [0x00B00C55]
+	(No symbol) [0x00B0093C]
+	(No symbol) [0x00AFA536]
+	(No symbol) [0x00AD82DC]
+	(No symbol) [0x00AD93DD]
+	GetHandleVerifier [0x00E7AABD+2539405]
+	GetHandleVerifier [0x00EBA78F+2800735]
+	GetHandleVerifier [0x00EB456C+2775612]
+	GetHandleVerifier [0x00CA51E0+616112]
+	(No symbol) [0x00BB5F8C]
+	(No symbol) [0x00BB2328]
+	(No symbol) [0x00BB240B]
+	(No symbol) [0x00BA4FF7]
+	BaseThreadInitThunk [0x772800C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DB7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DB7AEE+238]
+
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:32)
+
+testCreateAndDisplayCredential  Time elapsed: 1.369 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.92 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TVN8195F', ip: '192.168.100.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00C1A813+48355]
+	(No symbol) [0x00BAC4B1]
+	(No symbol) [0x00AB5358]
+	(No symbol) [0x00AD61AC]
+	(No symbol) [0x00AD1EF3]
+	(No symbol) [0x00AD0579]
+	(No symbol) [0x00B00C55]
+	(No symbol) [0x00B0093C]
+	(No symbol) [0x00AFA536]
+	(No symbol) [0x00AD82DC]
+	(No symbol) [0x00AD93DD]
+	GetHandleVerifier [0x00E7AABD+2539405]
+	GetHandleVerifier [0x00EBA78F+2800735]
+	GetHandleVerifier [0x00EB456C+2775612]
+	GetHandleVerifier [0x00CA51E0+616112]
+	(No symbol) [0x00BB5F8C]
+	(No symbol) [0x00BB2328]
+	(No symbol) [0x00BB240B]
+	(No symbol) [0x00BA4FF7]
+	BaseThreadInitThunk [0x772800C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DB7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DB7AEE+238]
+
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:32)
+
+testUserSignupAndLogin  Time elapsed: 1.056 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.92 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TVN8195F', ip: '192.168.100.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00C1A813+48355]
+	(No symbol) [0x00BAC4B1]
+	(No symbol) [0x00AB5358]
+	(No symbol) [0x00AD61AC]
+	(No symbol) [0x00AD1EF3]
+	(No symbol) [0x00AD0579]
+	(No symbol) [0x00B00C55]
+	(No symbol) [0x00B0093C]
+	(No symbol) [0x00AFA536]
+	(No symbol) [0x00AD82DC]
+	(No symbol) [0x00AD93DD]
+	GetHandleVerifier [0x00E7AABD+2539405]
+	GetHandleVerifier [0x00EBA78F+2800735]
+	GetHandleVerifier [0x00EB456C+2775612]
+	GetHandleVerifier [0x00CA51E0+616112]
+	(No symbol) [0x00BB5F8C]
+	(No symbol) [0x00BB2328]
+	(No symbol) [0x00BB240B]
+	(No symbol) [0x00BA4FF7]
+	BaseThreadInitThunk [0x772800C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DB7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DB7AEE+238]
+
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:32)
+
+testCreateAndDisplayNote  Time elapsed: 1.313 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.92 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TVN8195F', ip: '192.168.100.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00C1A813+48355]
+	(No symbol) [0x00BAC4B1]
+	(No symbol) [0x00AB5358]
+	(No symbol) [0x00AD61AC]
+	(No symbol) [0x00AD1EF3]
+	(No symbol) [0x00AD0579]
+	(No symbol) [0x00B00C55]
+	(No symbol) [0x00B0093C]
+	(No symbol) [0x00AFA536]
+	(No symbol) [0x00AD82DC]
+	(No symbol) [0x00AD93DD]
+	GetHandleVerifier [0x00E7AABD+2539405]
+	GetHandleVerifier [0x00EBA78F+2800735]
+	GetHandleVerifier [0x00EB456C+2775612]
+	GetHandleVerifier [0x00CA51E0+616112]
+	(No symbol) [0x00BB5F8C]
+	(No symbol) [0x00BB2328]
+	(No symbol) [0x00BB240B]
+	(No symbol) [0x00BA4FF7]
+	BaseThreadInitThunk [0x772800C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DB7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DB7AEE+238]
+
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:32)
+
+testDeleteNote  Time elapsed: 1.179 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.92 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TVN8195F', ip: '192.168.100.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00C1A813+48355]
+	(No symbol) [0x00BAC4B1]
+	(No symbol) [0x00AB5358]
+	(No symbol) [0x00AD61AC]
+	(No symbol) [0x00AD1EF3]
+	(No symbol) [0x00AD0579]
+	(No symbol) [0x00B00C55]
+	(No symbol) [0x00B0093C]
+	(No symbol) [0x00AFA536]
+	(No symbol) [0x00AD82DC]
+	(No symbol) [0x00AD93DD]
+	GetHandleVerifier [0x00E7AABD+2539405]
+	GetHandleVerifier [0x00EBA78F+2800735]
+	GetHandleVerifier [0x00EB456C+2775612]
+	GetHandleVerifier [0x00CA51E0+616112]
+	(No symbol) [0x00BB5F8C]
+	(No symbol) [0x00BB2328]
+	(No symbol) [0x00BB240B]
+	(No symbol) [0x00BA4FF7]
+	BaseThreadInitThunk [0x772800C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DB7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DB7AEE+238]
+
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:32)
+
+testBadUrl  Time elapsed: 1.765 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.92 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TVN8195F', ip: '192.168.100.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00C1A813+48355]
+	(No symbol) [0x00BAC4B1]
+	(No symbol) [0x00AB5358]
+	(No symbol) [0x00AD61AC]
+	(No symbol) [0x00AD1EF3]
+	(No symbol) [0x00AD0579]
+	(No symbol) [0x00B00C55]
+	(No symbol) [0x00B0093C]
+	(No symbol) [0x00AFA536]
+	(No symbol) [0x00AD82DC]
+	(No symbol) [0x00AD93DD]
+	GetHandleVerifier [0x00E7AABD+2539405]
+	GetHandleVerifier [0x00EBA78F+2800735]
+	GetHandleVerifier [0x00EB456C+2775612]
+	GetHandleVerifier [0x00CA51E0+616112]
+	(No symbol) [0x00BB5F8C]
+	(No symbol) [0x00BB2328]
+	(No symbol) [0x00BB240B]
+	(No symbol) [0x00BA4FF7]
+	BaseThreadInitThunk [0x772800C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DB7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DB7AEE+238]
+
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:32)
+
+testRedirection  Time elapsed: 1.357 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.92 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TVN8195F', ip: '192.168.100.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00C1A813+48355]
+	(No symbol) [0x00BAC4B1]
+	(No symbol) [0x00AB5358]
+	(No symbol) [0x00AD61AC]
+	(No symbol) [0x00AD1EF3]
+	(No symbol) [0x00AD0579]
+	(No symbol) [0x00B00C55]
+	(No symbol) [0x00B0093C]
+	(No symbol) [0x00AFA536]
+	(No symbol) [0x00AD82DC]
+	(No symbol) [0x00AD93DD]
+	GetHandleVerifier [0x00E7AABD+2539405]
+	GetHandleVerifier [0x00EBA78F+2800735]
+	GetHandleVerifier [0x00EB456C+2775612]
+	GetHandleVerifier [0x00CA51E0+616112]
+	(No symbol) [0x00BB5F8C]
+	(No symbol) [0x00BB2328]
+	(No symbol) [0x00BB240B]
+	(No symbol) [0x00BA4FF7]
+	BaseThreadInitThunk [0x772800C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DB7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DB7AEE+238]
+
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:32)
+
+testUnauthorizedAccess  Time elapsed: 1.228 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.92 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TVN8195F', ip: '192.168.100.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00C1A813+48355]
+	(No symbol) [0x00BAC4B1]
+	(No symbol) [0x00AB5358]
+	(No symbol) [0x00AD61AC]
+	(No symbol) [0x00AD1EF3]
+	(No symbol) [0x00AD0579]
+	(No symbol) [0x00B00C55]
+	(No symbol) [0x00B0093C]
+	(No symbol) [0x00AFA536]
+	(No symbol) [0x00AD82DC]
+	(No symbol) [0x00AD93DD]
+	GetHandleVerifier [0x00E7AABD+2539405]
+	GetHandleVerifier [0x00EBA78F+2800735]
+	GetHandleVerifier [0x00EB456C+2775612]
+	GetHandleVerifier [0x00CA51E0+616112]
+	(No symbol) [0x00BB5F8C]
+	(No symbol) [0x00BB2328]
+	(No symbol) [0x00BB240B]
+	(No symbol) [0x00BA4FF7]
+	BaseThreadInitThunk [0x772800C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DB7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DB7AEE+238]
+
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:32)
+
